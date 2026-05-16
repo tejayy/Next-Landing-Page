@@ -1,4 +1,6 @@
+import { CtaSection } from "@/components/sections/cta-section";
 import { FeaturesSection } from "@/components/sections/features-section";
+import { FooterSection } from "@/components/sections/footer-section";
 import { HeroSection } from "@/components/sections/hero-section";
 import { ImpactSection } from "@/components/sections/impact-section";
 import { PricingSection } from "@/components/sections/pricing-section";
@@ -16,6 +18,8 @@ export default function Home() {
       <FeaturesSection/>
       <TestimonialsSection/>
       <PricingSection/>
+      <CtaSection/>
+      <FooterSection/>
       <h1 className="text-bold p-6">WELCOME</h1>
     </main>
   );
